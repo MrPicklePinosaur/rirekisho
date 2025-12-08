@@ -1,0 +1,120 @@
+{
+    resumeName: "electrical",
+    projects: [
+    {
+	    name: "Datacenter Power Distribution Board",
+	    tagline: "",
+	    link: "",
+	    date: "Nov 2025",
+	    description: [
+			"Designed 4-layer PCB with STM32N657 (178 pin BGA), 10/100Mbps Ethernet, USB-C, 48V high side load switches, and hall effect sensor array",
+			"Provided galvanic isolation between high voltage and low voltage control sections of the board",
+        ]
+    },
+    {
+	    name: "AI Smart Ring",
+	    tagline: "",
+	    link: "",
+	    date: "July 2025",
+	    description: [
+			"Developed a NRF54L flex PCB with chip antenna and li-po battery charger for an AI wearable startup",
+			"Project had tight size constraints requiring sourcing small form factor components and efficient layout/routing",
+        ]
+    },
+	{
+	    name: "Game Console Mainboard",
+	    tagline: "",
+	    link: "",
+	    date: "June 2025",
+	    description: [
+			"Created 6-layer PCB with Allwinner A33 SoC (300+ pin BGA), PMIC, DDR3 memory, SDIO wifi/bluetooth module, RGB666 display driver and Li-po battery charger",
+			"Full board bring-up with custom buildroot kernel and comprehensive device tree configuration",
+			"Designed mechanical enclosure and produced with SLA 3D printing",
+	    ]
+	},
+    ],
+    experiences: [
+	{
+	    name: "Solderable, Inc.",
+	    role: "Founder and CEO",
+	    date: "2025",
+	    description: [
+			"Leading a venture-backed pre-seed startup to build the world's first fully autonomous electrical engineering firm",
+			"Designed and manufactured over 1000 PCBs for clients, including AI wearables, IoT devices, and high voltage power distribution boards",
+	    ],
+	},
+	{
+	    name: "Pex Labs",
+	    role: "Cofounder",
+	    date: "2024",
+	    description: [
+            "Formed company building a retro handheld game console for the PICO-8 game platform",
+            "Built \\textbf{10+} 3D printed prototypes, \\textbf{5} custom PCB revisions and engineered game emulator",
+            "Spoke with \\textbf{100+} customers, gained \\textbf{1000+} waitlists, and raised \\$\\textbf{12,000} in grants"
+	    ],
+	},
+	{
+	    name: "Tesla",
+	    role: "Vehicle Update System",
+	    date: "2024",
+	    description: [
+			"Introduced \\textbf{over-the-air (OTA)} modem updates to the \\textbf{Golang} based Tesla updater for the Optimus robot, eliminating time-consuming manual code uploads for robot developers",
+			"Productionized robot software by implementing \\textbf{encrypted updates} for autopilot computer",
+	    ],
+	},
+	{
+	    name: "Wind River Software",
+	    role: "Open Source Embedded Developer",
+	    date: "2023",
+	    description: [
+            "Responding to customer request, ported \\textbf{Golang} to \\textbf{VxWorks} - the industry leading RTOS",
+            "Involves porting system calls and writing runtime bootstrapping code in assembly",
+            "Enabled \\textbf{VxWorks} kernel and \\textbf{Golang} process remote debugging using \\textbf{gdbserver}"
+	    ],
+	},
+    ],
+    skills: {
+	tools: [
+	    {
+		"title": "Programming Languages",
+		"entries": "Bash, C, C++, C\\#, Go, Haskell, Java, Javascript/Typescript, Python, Rust, Verilog, VHDL"
+	    },
+	    {
+		"title": "Tools",
+		"entries": "Altium Designer, KiCad, EagleCAD, Fusion 360, Onshape"
+	    },
+	    {
+		"title": "Skillsets",
+		"entries": "High Frequency Design (Ethernet, DDR), Power Electronics, Embedded Systems"
+	    },
+	],
+	languages: [
+	],
+    },
+    interests: [
+	{
+	    "title": "Hackathons",
+	    "description": [
+		"Participated and submitted to 30+ hackathons winning 10+ times"
+	    ]
+	},
+	{
+	    "title": "Game Jams",
+	    "description": [
+		"Submitted to 7+ game jams"
+	    ]
+	},
+	{
+	    "title": "Open Source",
+	    "description": [
+		"9000+ total contributions, 1000+ pull requests created and 400+ stars"
+	    ]
+	},
+	{
+	    "title": "Language Acquisition",
+	    "description": [
+		"fluent English, Mandarin, and Japanese; studying Korean and German"
+    ]
+	}
+    ],
+}
