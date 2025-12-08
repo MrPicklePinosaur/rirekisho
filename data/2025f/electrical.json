@@ -4,7 +4,7 @@
     {
 	    name: "Datacenter Power Distribution Board",
 	    tagline: "",
-	    link: "",
+	    link: "https://files.danieliu.xyz/pcb/hayla.png",
 	    date: "Nov 2025",
 	    description: [
 			"Designed 4-layer PCB with STM32N657 (178 pin BGA), 10/100Mbps Ethernet, USB-C, 48V high side load switches, and hall effect sensor array",
@@ -14,7 +14,7 @@
     {
 	    name: "AI Smart Ring",
 	    tagline: "",
-	    link: "",
+	    link: "https://files.danieliu.xyz/pcb/ambient.png",
 	    date: "July 2025",
 	    description: [
 			"Developed a NRF54L flex PCB with chip antenna and li-po battery charger for an AI wearable startup",
@@ -24,7 +24,7 @@
 	{
 	    name: "Game Console Mainboard",
 	    tagline: "",
-	    link: "",
+	    link: "https://files.danieliu.xyz/pcb/pexlabs.png",
 	    date: "June 2025",
 	    description: [
 			"Created 6-layer PCB with Allwinner A33 SoC (300+ pin BGA), PMIC, DDR3 memory, SDIO wifi/bluetooth module, RGB666 display driver and Li-po battery charger",
