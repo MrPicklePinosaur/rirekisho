@@ -2,7 +2,7 @@
 
 set -e
 
-prefix=2024f
+prefix=2026w
 
 mkdir -p out
 

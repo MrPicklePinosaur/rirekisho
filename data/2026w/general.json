@@ -1,0 +1,118 @@
+{
+    projects: [
+    {
+	    name: "TrainOS",
+	    tagline: "Real-Time Operating System for Train Control",
+	    link: "https://github.com/MrPicklePinosaur/trainos",
+	    date: "Sept 2023",
+	    description: [
+            "Developed \\textbf{microkernel} using \\textbf{C} with context switching, dynamic memory allocation, interprocess communication, test framework, and suite of userland programs",
+            "Designed standard library and Ncurses inspired \\textbf{rendering API} from the ground up",
+            "Orchestrate multiple model trains with \\textbf{collision avoidance} and \\textbf{cooperative pathfinding}"
+        ]
+    },
+    {
+	    name: "VRIoT",
+	    tagline: "Virtual Reality Manager for IoT Devices",
+	    link: "https://devpost.com/software/vriot-o84j6s",
+	    date: "Jan 2023",
+	    description: [
+            "Built VR application in \\textbf{Unity} to interface with \\textbf{IoT devices} in real time, winning \\textbf{MIT Reality Hacks 2023} in two categories",
+            "Developed \\textbf{Rust} backend with \\textbf{SurrealDB} to proxy traffic between IoT devices and VR headsets, along with SDKs to provide seamless bidirectional communication",
+            "Features prototype IoT devices based on the \\textbf{ESP32 microcontroller} running \\textbf{micropython}, including an intruder alarm system, multiroom lighting and smart doorbell"
+        ]
+    },
+    ],
+    experiences: [
+    {
+        name: "Solderable, Inc.",
+        role: "Founder and CEO",
+        date: "2025",
+	    description: [
+            "Founded Solderable to build the world's first fully autonomous circuit design firm to commoditize engineering, by developing state of the art AI tools",
+            "Fulfilled contracts with numerous hardware startups from Founders, Inc. and other hot incubators"
+        ]
+    },
+    {
+        name: "Humanoid Collective",
+        role: "Host",
+        date: "2024",
+	    description: [
+            "Founded the Humanoid Collective - a student group focused on humanoid robot research - leading weekly reading groups",
+            "Actively conducting research on model merging techniques applied to diffusion policies for robot manipulation",
+            "Prototyping actuator designs for a 7 DoF robot arm"
+        ]
+    },
+	{
+	    name: "Pex Labs",
+	    role: "Co-founder | Retro handheld gaming startup",
+	    date: "2024",
+	    description: [
+            "Formed company building a retro handheld game console for the PICO-8 game platform",
+            "Built \\textbf{10+} 3D printed prototypes, \\textbf{3} PCB revisions and custom linux distribution",
+            "Gained \\textbf{1000+} waitlists, raised \\$\\textbf{12,000} in grants and fulfilled paid beta orders"
+	    ],
+	},
+	{
+	    name: "Tesla",
+	    role: "Vehicle Update System",
+	    date: "2024",
+	    description: [
+            "Introduced \\textbf{over-the-air (OTA)} modem updates to the \\textbf{Golang} based Tesla updater for the Optimus robot, eliminating time-consuming manual code uploads for robot developers",
+            "Productionized robot software by implementing \\textbf{encrypted updates} for autopilot computer",
+	    ],
+	},
+	{
+	    name: "Wind River Software",
+	    role: "Open Source Embedded Developer",
+	    date: "2023",
+	    description: [
+            "Responding to customer request, ported \\textbf{Golang} to \\textbf{VxWorks} - the industry leading RTOS",
+            "Involves porting system calls and writing runtime bootstrapping code in assembly",
+            "Enabled \\textbf{VxWorks} kernel and \\textbf{Golang} process remote debugging using \\textbf{gdbserver}"
+	    ],
+	},
+    ],
+    skills: {
+	tools: [
+	    {
+		"title": "Languages",
+		"entries": "Bash, C, C++, C\\#, Go, Haskell, Java, Javascript/Typescript, Python, Rust, Verilog"
+	    },
+	    {
+		"title": "Technologies",
+		"entries": "Raspberry Pi, STM32, ESP32, FPGA, Linux, Git, Docker, Kubernetes, Buildroot"
+	    },
+	    {
+		"title": "Tools",
+		"entries": "Fusion 360, Eagle, KiCAD, ROS, MuJoCo, PyTorch, OpenCV, OpenGL, Jupyter Notebook"
+	    },
+	    {
+		"title": "Skillsets",
+		"entries": "Operating Systems, Control Systems, Networking, Concurrency, IoT, VR/AR"
+	    },
+	],
+	languages: [
+	],
+    },
+    interests: [
+	{
+	    "title": "Hackathons",
+	    "description": [
+		"Participated and submitted to 30+ hackathons winning 10+ times"
+	    ]
+	},
+	{
+	    "title": "Open Source",
+	    "description": [
+		"7000+ total contributions, 500+ pull requests created and 350+ stars"
+	    ]
+	},
+	{
+	    "title": "Languages",
+	    "description": [
+		"fluent English, Mandarin, and Japanese; studying Korean and German"
+        ]
+	}
+    ],
+}

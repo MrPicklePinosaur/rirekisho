@@ -9,6 +9,7 @@ require "erb"
 
 gemfile do
     source 'https://rubygems.org'
+    gem 'bigdecimal'
     gem 'json-schema'
     gem 'json-next'
 end

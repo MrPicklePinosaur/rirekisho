@@ -1,0 +1,143 @@
+{
+    resumeName: "embedded",
+    projects: [
+    
+    {
+	    name: "TrainOS",
+	    tagline: "Real-Time Operating System for Train Control",
+	    link: "",
+	    date: "Sept 2023",
+	    description: [
+            "Developed \\textbf{microkernel} using \\textbf{C} with context switching, dynamic memory allocation, interprocess communication, test framework, and suite of userland programs",
+            "Designed standard library and Ncurses inspired \\textbf{rendering API} from the ground up",
+            "Orchestrate multiple model trains with \\textbf{collision avoidance} and \\textbf{cooperative pathfinding}"
+        ]
+    },
+    {
+	    name: "VRIoT",
+	    tagline: "Virtual Reality Manager for IoT Devices",
+	    link: "https://devpost.com/software/vriot-o84j6s",
+	    date: "Jan 2023",
+	    description: [
+            "Built VR application in \\textbf{Unity} to interface with \\textbf{IoT devices} in real time, winning \\textbf{MIT Reality Hacks 2023} in two categories",
+            "Developed \\textbf{Rust} backend with \\textbf{SurrealDB} to proxy traffic between IoT devices and VR headsets, along with SDKs to provide seamless bidirectional communication",
+            "Features prototype IoT devices based on the \\textbf{ESP32 microcontroller} running \\textbf{micropython}, including an intruder alarm system, multiroom lighting and smart doorbell"
+        ]
+    },
+	{
+	    name: "InDaBin",
+	    tagline: "Self Sorting Garbage Bin",
+	    link: "https://devpost.com/software/indabin-smart-disposal-tracker",
+	    date: "Aug 2022",
+	    description: [
+		"Built waste sorting apparatus complete with analytics platform, winning \\textbf{first place}",
+		"Used \\textbf{Rust} to write controller software for \\textbf{Raspberry PI} that is capable of motion detection using \\textbf{OpenCV}, control of GPIO pins and proximity detection using \\textbf{bluetooth}",
+		"\\textbf{Golang backend} that interfaces with Google \\textbf{image recognition} and \\textbf{text-to-speech} APIs",
+	    ]
+	},
+    {
+	    name: "WLP4 Compiler Toolchain",
+	    tagline: "Compiler and Linker",
+	    link: "",
+	    date: "Apr 2022",
+	    description: [
+            "Created \\textbf{compiler} for WLP4, a C like language, with parser, type checking, linker, and code generation to MIPS using \\textbf{C++}. Features a variety of \\textbf{code optimization} techniques",
+        ]
+    }
+    ],
+    experiences: [
+	{
+	    name: "Tesla",
+	    role: "Vehicle Update System",
+	    date: "2024",
+	    description: [
+            "Introduced \\textbf{over-the-air (OTA)} modem updates to the \\textbf{Golang} based Tesla updater for the Optimus robot, eliminating time-consuming manual code uploads for robot developers",
+            "Productionized robot software by implementing \\textbf{encrypted updates} for autopilot computer",
+	    ],
+	},
+	{
+	    name: "Wind River Software",
+	    role: "Open Source Embedded Developer",
+	    date: "2023",
+	    description: [
+            "Responding to customer request, ported \\textbf{Golang} to \\textbf{VxWorks} - the industry leading RTOS",
+            "Involves porting system calls and writing runtime bootstrapping code in assembly",
+            "Enabled \\textbf{VxWorks} kernel and \\textbf{Golang} process remote debugging using \\textbf{gdbserver}"
+	    ],
+	},
+	{
+	    name: "Voiceflow Inc",
+	    role: "Platform Team Software Developer",
+	    date: "2022",
+	    description: [
+		"Developed a proof of concept \\textbf{markup language} to integrate into existing platform, complete with a working compiler written in \\textbf{Rust}, developer tools and documentation",
+		"Extensively optimized the Voiceflow runtime, cutting compile times by \\textbf{more than half}",
+	    ],
+	},
+	{
+	    name: "Waterloo Rocketry",
+	    role: "Software Team",
+	    date: "2022",
+	    description: [
+		"Simulated rocket flight conditions such as radiation levels using \\textbf{C++} and \\textbf{Geant4}",
+	    ],
+	},
+	{
+	    name: "UW Computer Science Club",
+	    role: "Term Com",
+	    date: "2021",
+	    description: [
+		"Used \\textbf{Ansible} to automate the creation of development VMs for both \\textbf{Qemu} and \\textbf{Libvirt}",
+		"Worked on \\textbf{Golang} script to sync Linux package repositories with the \\textbf{\\href{https://mirror.csclub.uwaterloo.ca/}{CSC mirror\\textsuperscript{}}}",
+	    ],
+	},
+    ],
+    skills: {
+	tools: [
+	    {
+		"title": "Languages",
+		"entries": "Bash, C, C++, C\\#, Go, Haskell, Java, Javascript/Typescript, Python, Rust, Verilog"
+	    },
+	    {
+		"title": "Technologies",
+		"entries": "LLVM, OpenCV, OpenGL, Linux, Git, Docker, Kubernetes, FPGA, ROS, Raspberry Pi"
+	    },
+	    {
+		"title": "Web",
+		"entries": "React, Vue, Nodejs, Flask, Firebase, SQL, GraphQL, OpenAPI"
+	    },
+	    {
+		"title": "Skillsets",
+		"entries": "Operating Systems, Compiler Construction, Networking, Concurrency, IoT, VR/AR"
+	    },
+	],
+	languages: [
+	],
+    },
+    interests: [
+	{
+	    "title": "Hackathons",
+	    "description": [
+		"Participated and submitted to 30+ hackathons winning 10+ times"
+	    ]
+	},
+	{
+	    "title": "Game Jams",
+	    "description": [
+		"Submitted to 7+ game jams"
+	    ]
+	},
+	{
+	    "title": "Open Source",
+	    "description": [
+		"6000+ total contributions, 500+ pull requests created and 200+ stars"
+	    ]
+	},
+	{
+	    "title": "Language Acquisition",
+	    "description": [
+		"fluent English, Mandarin, and Japanese; studying Korean and German"
+    ]
+	}
+    ],
+}
