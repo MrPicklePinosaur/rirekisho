@@ -7,7 +7,7 @@
 	    link: "https://files.danieliu.xyz/pcb/hayla.png",
 	    date: "Nov 2025",
 	    description: [
-			"Designed 4-layer PCB with STM32N657 (178 pin BGA), 10/100Mbps Ethernet, USB-C, 48V high side load switches, and hall effect sensor array",
+			"Designed 4-layer PCB with \\textbf{STM32N657} (178 pin BGA), 10/100Mbps \\textbf{Ethernet}, USB-C, 48V high side load switches, and hall effect sensor array",
 			"Provided galvanic isolation between high voltage and low voltage control sections of the board",
         ]
     },
@@ -17,7 +17,7 @@
 	    link: "https://files.danieliu.xyz/pcb/ambient.png",
 	    date: "July 2025",
 	    description: [
-			"Developed a NRF54L flex PCB with chip antenna and li-po battery charger for an AI wearable startup",
+			"Developed a NRF54L \\textbf{flex PCB} with chip antenna and li-po battery charger for an AI wearable startup",
 			"Project had tight size constraints requiring sourcing small form factor components and efficient layout/routing",
         ]
     },
@@ -27,8 +27,8 @@
 	    link: "https://files.danieliu.xyz/pcb/pexlabs.png",
 	    date: "June 2025",
 	    description: [
-			"Created 6-layer PCB with Allwinner A33 SoC (300+ pin BGA), PMIC, DDR3 memory, SDIO wifi/bluetooth module, RGB666 display driver and Li-po battery charger",
-			"Full board bring-up with custom buildroot kernel and comprehensive device tree configuration",
+			"Created 6-layer PCB with \\textbf{Allwinner A33 SoC} (300+ pin BGA), PMIC, \\textbf{DDR3 memory}, SDIO wifi/bluetooth module, RGB666 display driver and Li-po battery charger",
+			"Full board bring-up with custom \\textbf{buildroot kernel} and comprehensive device tree configuration",
 			"Designed mechanical enclosure and produced with SLA 3D printing",
 	    ]
 	},
@@ -39,8 +39,8 @@
 	    role: "Founder and CEO",
 	    date: "2025",
 	    description: [
-			"Leading a venture-backed pre-seed startup to build the world's first fully autonomous electrical engineering firm",
-			"Designed and manufactured over 1000 PCBs for clients, including AI wearables, IoT devices, and high voltage power distribution boards",
+			"Leading a venture-backed pre-seed startup to build the world's first \\textbf{fully autonomous} electrical engineering firm",
+			"Designed and manufactured over \\textbf{2000 PCBs} for clients, including AI wearables, IoT devices, and high voltage power distribution boards",
 	    ],
 	},
 	{
